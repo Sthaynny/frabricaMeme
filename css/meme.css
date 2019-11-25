@@ -1,14 +1,26 @@
 body {
     background-color: black;
+    background-image: url("/images/zueria.webp");
 }
 
 h1 {
-    color: rgb(47, 255, 168);
+    color: black;
     text-align: center;
+    animation: uno 1.9s infinite ease-out;
+}
+
+@keyframes uno {
+    50% {
+        color: white;
+    }
+    100% {
+        color: black;
+    }
 }
 
 h2 {
-    color: white;
+    background: rgba(211, 211, 211, 0.8);
+    color: black;
 }
 
 canvas {
@@ -20,6 +32,10 @@ canvas {
     width: 500px;
     height: 40px;
     text-align: center;
+}
+
+#logo {
+    color: black;
 }
 
 #resultado {
@@ -40,9 +56,17 @@ canvas {
 }
 
 #gerar {
+    text-align: center;
     width: 100px;
     height: 50px;
     color: black;
+    border-radius: 40px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    background: rgb(240, 91, 91);
 }
 
 #seta {
@@ -52,5 +76,23 @@ canvas {
 
 .numero {
     border-radius: 40px;
-    background-color: transparent;
+    background-color: white;
+    text-align: center;
+    color: black;
+    width: 200px;
+}
+
+#fabrica {
+    background: rgba(211, 211, 211, 0.8);
+    position: absolute;
+    text-align: center;
+}
+
+.texto_user {
+    border-radius: 40px;
+}
+
+#imgbtt {
+    width: 20px;
+    height: 20px;
 }

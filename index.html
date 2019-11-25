@@ -12,30 +12,30 @@
 <body>
     <h1>Maquina MeMe</h1>
     <div id="resultado">
-        <h2>Meme Gerado:</h2>
+        <h2>Meme:</h2>
         <br>
         <canvas id="canvas"></canvas>
     </div>
     <div id="fabrica">
         <form action="#">
-            <input type="text" placeholder="Titulo do Meme" id="titulo">
+            <input class="texto_user" type="text" placeholder="Titulo do Meme" id="titulo">
             <br>
             <br>
             <input class="numero" type="number" placeholder="Posição Texto (Eixo X(px))" id="positiontx">
             <input class="numero" type="number" placeholder="Posição Texto (Eixo Y(px))" id="positionty">
             <br>
             <br>
-            <input id="imagem" type="link" placeholder="Imagem (Caminho da imagem)">
+            <input class="texto_user" id="imagem" type="link" placeholder="Imagem (Caminho da imagem)">
             <br>
             <br>
-            <input id="down" type="text" placeholder="Rodapé do MEME">
+            <input class="texto_user" id="down" type="text" placeholder="Rodapé">
             <br>
             <br>
             <input class="numero" type="number" placeholder="Posição Eixo X(px)" id="positionrx">
             <input class="numero" type="number" placeholder="Posição Eixo Y(px)" id="positionry">
             <br>
             <br>
-            <button id="gerar" type="button" onclick="desenhar();">Gerar MEME </button>
+            <button id="gerar" type="button" onclick="desenhar();">Gerar <img id="imgbtt" src="/images/sonic.png" alt=""></button>
         </form>
     </div>
     <script type="text/javascript" src="/js/meme.js"></script>
