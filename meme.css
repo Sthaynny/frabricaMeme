@@ -1,0 +1,43 @@
+body{
+    background-color:black;
+}
+h1{
+    color:rgb(47, 255, 168);
+    text-align: center;
+}
+h2{
+    color: white;
+}
+canvas{
+    width: 550px;
+    height: 400px;
+}
+#titulo{
+    width: 500px;
+    height: 40px;
+    text-align: center;
+}
+
+#resultado{
+    position:static;
+    float: right;
+}
+#imagem{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+#down{
+    width: 500px;
+    height: 40px;
+    text-align: center;
+}
+#gerar{
+    width: 100px;
+    height: 50px;
+    color:black;
+}
+#seta{
+    width: 20px;
+    height: 20px;
+}
