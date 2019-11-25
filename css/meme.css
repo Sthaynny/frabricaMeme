@@ -1,43 +1,56 @@
-body{
-    background-color:black;
+body {
+    background-color: black;
 }
-h1{
-    color:rgb(47, 255, 168);
+
+h1 {
+    color: rgb(47, 255, 168);
     text-align: center;
 }
-h2{
+
+h2 {
     color: white;
 }
-canvas{
+
+canvas {
     width: 550px;
     height: 400px;
 }
-#titulo{
+
+#titulo {
     width: 500px;
     height: 40px;
     text-align: center;
 }
 
-#resultado{
-    position:static;
+#resultado {
+    position: static;
     float: right;
 }
-#imagem{
+
+#imagem {
     width: 500px;
     height: 50px;
     text-align: center;
 }
-#down{
+
+#down {
     width: 500px;
     height: 40px;
     text-align: center;
 }
-#gerar{
+
+#gerar {
     width: 100px;
     height: 50px;
-    color:black;
+    color: black;
 }
-#seta{
+
+#seta {
     width: 20px;
     height: 20px;
+}
+
+.numero {
+    border-radius: 40px;
+    background-color: transparent;
 }
